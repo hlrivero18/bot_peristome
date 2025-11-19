@@ -18,6 +18,8 @@ RUN apk add --no-cache --virtual .gyp \
     && pnpm install \
     && apk del .gyp
 
+RUN pnpm run build
+
 FROM node:21-alpine3.18 as deploy
 
 WORKDIR /app
