@@ -63,7 +63,7 @@ const fullSamplesFlow = addKeyword(['samples', utils.setEvent('SAMPLES')])
     })
 
 const main = async () => {
-    //console.log(process.env.ID_NUMBER == "798087486731598")
+    console.log(process.env.ID_NUMBER == "798087486731598")
     const adapterFlow = createFlow([welcomeFlow, registerFlow, fullSamplesFlow])
     const adapterProvider = createProvider(Provider, {
         jwtToken: process.env.WHATSAPP_TOKEN,

@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "lint": "eslint . --no-ignore",
-    "dev": "npm run lint && nodemon ./src/app.js --env-file=.env ",
-    "start": "node ./src/app.js --env-file=.env ",
+    "dev": "npm run lint && nodemon ./src/app.js",
+    "start": "node ./src/app.js",
     "build": "mkdir -p dist && cp -r src/* dist/"
   },
   "keywords": [],
