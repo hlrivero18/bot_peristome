@@ -4,6 +4,8 @@ import { createBot, createProvider, createFlow, addKeyword, utils } from '@build
 // import { MysqlAdapter as Database } from '@builderbot/database-mysql'
 import { MetaProvider as Provider } from '@builderbot/provider-meta'
 
+//import bienvenidaFlow from './flows/welcome.flow'
+
 
 dotenv.config()
 
